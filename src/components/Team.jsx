@@ -5,11 +5,14 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
+          <h2>Mission Statement</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Our mission is to develop highly competent, compassionate, and culturally aware nursing professionals
+who are committed to excellence in patient care and advocacy. Through our accelerated program, we
+aim to empower students to become leaders in the healthcare field, equipped with the skills and
+knowledge to make a positive impact in their communities.
           </p>
+          <h2>Meet Our Lecturers</h2>
         </div>
         <div id="row">
           {props.data

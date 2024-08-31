@@ -5,10 +5,18 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Who Can Apply</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            To be admitted into any of our affiliate universities, candidate
+            must have, at least, a (Second Class Lower) Bachelor’s degree in
+            health-related courses such as 
+            <li>Public Health</li>
+             <li>Microbiology Anatomy</li>
+           <li> Physiology</li> 
+            <li>Biomedical sciences</li> 
+            <li>Medical Laboratory science Nutrition</li>
+            <li>Medicine</li>
+            <li>Pharmacy etc</li>
           </p>
         </div>
         <div className="row">
