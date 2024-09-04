@@ -9,6 +9,7 @@ export const About = (props) => {
             {" "}
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
           </div>
+
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
@@ -32,32 +33,32 @@ export const About = (props) => {
                         ))
                       : "loading"}
                   </ul>
-              
                 </div>
               </div>
             </div>
           </div>
-        </div><h2>What we do</h2>
-                  <ul>
-                    <p>
-                     
-                        As everyone knows, the demand for nurses and nursing
-                        education is high in the United States, United Kingdom
-                        and Canada. ONE is a liaison company aimed at helping
-                        those intending to migrate to these countries get
-                        quality nursing education. We do this by partnering with
-                        renowned and accredited schools of nursing across the
-                        African continent. It is an accelerated program that
-                        lasts through a period of 18 months with comprehensive
-                        curriculum that encompasses broad knowledge of nursing
-                        science, comprising of coursework and clinical
-                        education. Graduates will earn a B.S. Nursing degree and
-                        can challenge the NCLEX exams upon arrival in the United
-                        States or Canada or the NMC exams in the United Kingdom.
-                      
-                    </p>
-                  </ul>
-      </div>    
+        </div>
+        <div className="col-xs-12 col-md-6">
+          {" "}
+          <img src="img/about2.jpg" className="img-responsive" alt="" />{" "}
+        </div>
+        <h2>What we do</h2>
+        <ul>
+          <p>
+            As everyone knows, the demand for nurses and nursing education is
+            high in the United States, United Kingdom and Canada. ONE is a
+            liaison company aimed at helping those intending to migrate to these
+            countries get quality nursing education. We do this by partnering
+            with renowned and accredited schools of nursing across the African
+            continent. It is an accelerated program that lasts through a period
+            of 18 months with comprehensive curriculum that encompasses broad
+            knowledge of nursing science, comprising of coursework and clinical
+            education. Graduates will earn a B.S. Nursing degree and can
+            challenge the NCLEX exams upon arrival in the United States or
+            Canada or the NMC exams in the United Kingdom.
+          </p>
+        </ul>
+      </div>
     </div>
   );
 };
